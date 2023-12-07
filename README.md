@@ -3,11 +3,14 @@
 npm init -y
 npm i -D typescript
 npx tsc --init
-npm i -D jest @types/jest ts-jest
-<!-- add jest -->
-<!-- add jest types  -->
-<!-- add jest ts test -->
 
-npx ts-jest config:init
 
 ```
+
+```
+npm i -D jest @types/jest ts-jest
+npx ts-jest config:init
+```
+jestの追加
+jestの型追加
+jestのTS仕様に変更
